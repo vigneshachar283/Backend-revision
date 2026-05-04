@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/vigneshachar283/Backend-revision#readme",
+  "bugs": {
+    "url": "https://github.com/vigneshachar283/Backend-revision/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigneshachar283/Backend-revision.git"
+  },
+  "license": "ISC",
+  "author": "vignesh",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

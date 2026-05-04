@@ -1,12 +1,11 @@
-// alert("hello");
+const fs = require('fs');
 
-// //objects
+fs.appendFile("hey.txt","I am Fine ",function(err){
+    if(err) console.error(err);
+    else console.log("done");
+})
 
-// var obj = {
-//     name : "harsh"
-// }
-
-// console.log(obj['name'])
-
-
-var blob =await  fetch()
+fs.rename("hey.txt","hi.txt",function(err){
+    if(err) console.log(err);
+    else console.log("done")
+})
